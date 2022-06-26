@@ -1,4 +1,4 @@
-# TEH
+# TEH - only for beta-testers
 Thermo Electric Harvester 
 These are some (unsigned) debug.apk files for test purposes
 TEHreader.apk scans for BLE advertisements of the BlueFruit MCU powered by the TEH
