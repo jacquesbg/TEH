@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TEH reader</string>
+    <!--
+ Next is a probably unique 128 bit UUID.
+ However, android scanfilter may fail on 128 nit UUID, and it may lead to a too long advertismentstring
+-->
+    <string name="ble_uuid1">dc7cf226-ea87-11ec-8fea-0242ac120002</string>
+    <!--
+     If you want to declare a 16-bit UUID, you have to use a base-uuid, which is fixed:
+     0000xxxx-0000-1000-8000-00805F9B34FB
+     where xxx is the 16-bit UUID
+     Its is characteristic's UUID (2A6E) (Temperature) List of characteristics is there
+    -->
+    <string name="ble_uuid">00002A6E-0000-1000-8000-00805F9B34FB</string>
+    <string name="short_uuid">f226</string>
+
+</resources>
