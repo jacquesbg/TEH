@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/android_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android version"/>
+    <TextView
+        android:id="@+id/app_sdk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="app data"/>
+    <Button
+        android:id="@+id/btn_advertise_16bit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Advertise 16bits uUid"/>
+
+    <Button
+        android:id="@+id/btn_advertise_128bit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Advertise 128bits uUid"/>
+
+    <Button
+        android:id="@+id/btn_discover_16bits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discover 16bits uUid" />
+
+    <Button
+        android:id="@+id/btn_discover_128bits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discover 16bits and 128bits uUid" />
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"/>
+</LinearLayout>
